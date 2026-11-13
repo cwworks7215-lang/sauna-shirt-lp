@@ -135,3 +135,6 @@ em{font-style:normal;color:#ff4a50}
 .last-txt p{font-family:"Zen Old Mincho",serif;font-size:clamp(30px,8.6vw,54px);line-height:1.35;margin-bottom:30px}
 .off{white-space:nowrap;font-size:clamp(17px,4.6vw,26px)}
 .off small{font-size:.7em}
+.scene::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.75) 0%,rgba(0,0,0,.35) 60%,rgba(0,0,0,0) 100%);z-index:0}
+.scene-txt{z-index:1}
+.scene h2 .hl{display:inline-block;color:#fff;background:linear-gradient(transparent 62%,rgba(200,22,29,.95) 62%,rgba(200,22,29,.95) 92%,transparent 92%);padding:0 4px;margin-bottom:4px}
